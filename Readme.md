@@ -5,7 +5,6 @@ This project demonstrates a **highly available, scalable, and secure three-tier 
 **Architecture Overview:**  
 (User → Internet-Facing LB → Web Server → Internal LB → App Server → RDS Database)
 
----
 
 ## Project Overview
 
@@ -13,8 +12,6 @@ This project demonstrates a **highly available, scalable, and secure three-tier 
 - **Web Tier (Public)** – Handles user requests via Internet-facing Load Balancer
 - **Application Tier (Private)** – Handles business logic and API requests via internal Load Balancer
 - **Database Tier (Private)** – Stores application data in RDS (MySQL)
-
----
 
 ## Step-by-Step Implementation
 
